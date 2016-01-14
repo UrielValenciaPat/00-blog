@@ -1,0 +1,31 @@
+*{
+margin: 0 auto;
+}
+
+body{
+width: 100%;
+margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+font-size: 25px;
+}
+section{
+width: 65%;
+float: left;
+}
+aside{
+	width: 30%;
+	float: left;
+}
+article div{
+background: gray;
+}
+nav ul li + li:before{
+content: " | "; 
+padding-left: 5px;
+}
+nav ul li{
+float: left;
+list-style: none;
+}
